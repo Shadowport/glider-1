@@ -1,12 +1,12 @@
 # https://github.com/docker/build-push-action#usage
 name: Docker
 
-on:
-  push:
-    branches:
-      - 'dev'
-    tags:
-      - '*'
+# on:
+#   push:
+#     branches:
+#       - 'dev'
+#     tags:
+#       - '*'
 
 env:
   DOCKERHUB_REPO: nadoo/glider
